@@ -1,0 +1,54 @@
+/*##############################
+            IMPORTS
+##############################*/
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+/* font-family: 'IBM Plex Sans', sans-serif; */
+
+
+/*##############################
+           VARIABLES
+##############################*/
+
+:root {
+
+  /* COLORS */
+  --cyan: #66E2DC;
+  --orange: #FA7453;
+  --yellow: #FFB964;
+  --very-light-grey: #FCFAF9;
+  --dark-blackish-grey: #191826;
+
+  /* FONT FAMILY */
+  --main-font-family: 'IBM Plex Sans', sans-serif;
+
+  /* FONT WEIGHTS */
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+}
+
+
+/*##############################
+            STYLES
+##############################*/
+
+/* HTML */
+/* Font-Size and Box-Sizing */
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* Body */
+/* Font-Family */
+body {
+  font-family: var(--main-font-family);
+}
+
