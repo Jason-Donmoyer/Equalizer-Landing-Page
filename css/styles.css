@@ -46,9 +46,32 @@ html {
 }
 
 
-/* Body */
+/* BODY */
 /* Font-Family */
 body {
   font-family: var(--main-font-family);
+}
+
+
+/* HEADER */
+
+/* Main Header */
+.main-header {
+  background-image: url('../assets/bg-main-mobile.png');
+}
+
+
+/* Logo */
+.logo {
+  height: 2rem;
+  width: 9.130625rem;
+  background-image: url('../assets/logo.svg');
+}
+
+
+/* Sub-Header */
+.sub-header {
+  width: 20.4375rem;
+  height: 20rem;
 }
 
